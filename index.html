@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h3>hello world</h3>
+    <p>this is a paragraph</p>
+    <img src="/img/sieu-nhan-gao-675x366.jpg" alt="">
+    <ul>
+        <li>Hanoi</li>
+        <li>Haiphong</li>
+    </ul>
+    <ol>
+        <li>Hanoi</li>
+        <li>Haiphong</li>
+    </ol>
+    <!-- label: nhan tieu de, nam canh the output -->
+    <!-- action : thuoc tinh trong the form, chua dich gui thong tin den dau -->
+    <form action="" name="" method="POST">
+        <p>
+            <label for="">name</label>
+            <input type="text" name="name" id="1" placeholder="ho va ten">            
+        </p>
+        <p>
+            <label for="">sdt</label>
+            <input type="text" name="sdt" id="2" placeholder="so dien thoai">
+            <button>send the verify code</button>            
+        </p>
+        <p>
+            <label for="">type the verify code</label>
+            <input type="text" name="vc" id="3">            
+        </p>    
+        <p>
+            <label for="">email</label>
+            <input type="email" name="email" id="4" placeholder="type ur email">
+        </p>
+        <p>
+            <label for="">password</label>
+            <input type="password" name="pass" id="5" placeholder="password">
+        </p>
+        <p>
+            <label for="">sex</label>
+            <input type="radio" name="male" value="2">nam
+            <input type="radio" name="male" value="1">nu
+        </p>
+        <p>
+            <label for="sinh nhat"></label>
+            <select name="thang" >
+                <option value="1">jan</option>
+                <option value="2">feb</option>
+                <option value="3">mar</option>
+                <option value="4">apr</option>
+                <option value="5">may</option>
+                <option value="6">jun</option>
+                <option value="7">jul</option>
+                <option value="8">aug</option>
+                <option value="9">sep</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" name="nhanbantin" value="1">nhan cac ban tin khuyen mai cua tiki
+        </p>
+        <p>
+            <input type="submit" name="submit" value="tao tai khoan">
+            <button type="reset">reset</button>
+        </p>
+    </form>
+    <form name="demo" action="" method="POST">
+        <p>
+            <label for="chon file upload">choose file</label>
+            <input type="file" name="avatar">
+        </p>
+        <p>
+            <label for="ghichu">ghi chu</label>
+            <textarea name="ghichu" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+    <a title="day la trang tiki" href="https://tiki.vn/" target="_blank">tiki</a>
+    <br>
+    <a href="https://tiki.vn/" target="_self">tiki</a>
+    <div>
+        <a href="https://tiki.vn/">tiki</a>
+    </div>
+    <p>danh sach cac thanh pho</p>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>ten tp</th>
+                <th>dan so</th>
+                <th>GDP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ho chi minh</td>
+                <td>2000</td>
+                <td>2k</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hanoi</td>
+                <td>2000</td>
+                <td>2k</td>
+            </tr>
+        </tbody>
+    </table>
+    <b>bold</b><br>
+    <strong>strong</strong><br>
+    <i>italic</i>
+</body>
+</html>
